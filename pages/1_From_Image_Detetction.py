@@ -14,11 +14,11 @@ st.markdown("""
 
 col1 , col2 ,col3 = st.columns([2,1,2])
 with col1 :
-    st.image("D:\ASL\PROJETs\ML\Object_Detetction\Project3-HaramBlur\images\images.jpg")
+    st.image("../images/images.jpg")
 with col2 :
     st.markdown("""
                 ###
                 ###   ---🙈->
                 """)
 with col3 :
-    st.image("D:\ASL\PROJETs\ML\Object_Detetction\Project3-HaramBlur\images\HaramBlur.jpg")
+    st.image("../images/HaramBlur.jpg")
