@@ -81,9 +81,8 @@ with st.container():
     with left_column: 
         if  st.button('🎥Lancer la webcam',type='primary') :
             st.session_state.cam_active = True
-            st.session_state.cap = cv2.VideoCapture(0)
+            st.session_state.cap = cv2.VideoCapture(1)
             st.toast("Webcam lancée ✅")
-
 
     with right_column:
         if st.button('🛑Stop la webcam') :
