@@ -6,10 +6,10 @@ import mediapipe as mp
 
 
 # Load the Model
-cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+cascade = cv2.CascadeClassifier('models/haarcascade_frontalface_default.xml')
 
-modelFile = "D:\ASL\PROJETs\ML\Object_Detetction\Project3-HaramBlur\gender_net.caffemodel"
-configFile = "D:\ASL\PROJETs\ML\Object_Detetction\Project3-HaramBlur\gender_deploy.prototxt"
+modelFile = "models/gender_net.caffemodel"
+configFile = "models/gender_deploy.prototxt"
 net = cv2.dnn.readNet(modelFile, configFile)
 genderList = ['Male', 'Female']
 colors ={'pink':(255,0,255),'green' :(0,255,0) }
