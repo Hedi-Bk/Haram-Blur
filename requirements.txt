@@ -1,0 +1,8 @@
+opencv-python
+streamlit
+cvzone
+mediapipe==0.10.7
+Pillow
+numpy 
+altair
+pandas
