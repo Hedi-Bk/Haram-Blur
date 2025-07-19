@@ -14,11 +14,11 @@ st.markdown("""
 
 col1 , col2 ,col3 = st.columns([2,1,2])
 with col1 :
-    st.image("/images/images.jpg")
+    st.image("images/images.jpg")
 with col2 :
     st.markdown("""
                 ###
                 ###   ---🙈->
                 """)
 with col3 :
-    st.image("/images/HaramBlur.jpg")
+    st.image("images/HaramBlur.jpg")
