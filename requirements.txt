@@ -3,6 +3,6 @@ streamlit
 cvzone
 mediapipe==0.10.7
 Pillow
-numpy 
+numpy==1.23.5
 altair
 pandas
